@@ -11,9 +11,13 @@ python3 + flask
 
 ## how to install
 git clone https://github.com/joda32/owa-honeypot.git
+
 cd owa-honeypot
+
 python3 -m venv env
+
 source env/bin/activate
+
 pip install -r requirements.txt
 
 python owa_pot.py
